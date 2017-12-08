@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/bill_form_title"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/oswald_light"
+        android:text="Enter Bill Details"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Bill Name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Bill Date" />
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                android:layout_marginTop="5dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:breakStrategy="balanced"
+                android:fitsSystemWindows="true"
+                android:gravity="top"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:singleLine="false" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bill Amount"
+                android:layout_marginBottom="40dp"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Next"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

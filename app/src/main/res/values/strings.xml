@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IOU</string>
+    <string name="text_btTakePictureSmall">Take Picture (Small Picture)</string>
+    <string name="text_btTakePictureLarge">Take Picture (Large Picture)</string>
+    <string name="text_btPickPicture">Pick Picture</string>
+    <string name="msg_NoCameraAppsFound">no camera apps found</string>
+    <string name="text_ShouldGrant">Permission to read from external storage should be granted</string>
+
+    <string name="hello">Hello World, PhotoIntentActivity!</string>
+    <string name="btnIntend">Take (big) Picture</string>
+    <string name="btnIntendS">Take (small) Picture</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">CameraSample</string>
+
+    <color name="green">#90EE90</color>
+</resources>

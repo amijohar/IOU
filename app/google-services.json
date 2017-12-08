@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "453071581930",
+    "firebase_url": "https://iounomore-862d6.firebaseio.com",
+    "project_id": "iounomore-862d6",
+    "storage_bucket": "iounomore-862d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453071581930:android:87443adb3a43ff98",
+        "android_client_info": {
+          "package_name": "com.hkucs.splitters.billsplitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453071581930-jo3q8ogda4o607ra9b9htatrpca23p57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIfvQrDoUd-1GcAcWbUFsjBs6HpJTSdjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
